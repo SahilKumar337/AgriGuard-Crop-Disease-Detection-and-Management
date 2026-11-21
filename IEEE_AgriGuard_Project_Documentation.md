@@ -1,10 +1,10 @@
 # AgriGuard: An Edge-Optimized YOLO Object Detection and Multimodal Decision-Support Platform for In-Situ Crop Disease and Pest Management
 
-**Devanshu Kumar**  
-*Roll No.: 9 | Registration No.: 12404673*  
+**Sahil Kumar (1245740)** &nbsp;|&nbsp; **Amit Singh Sikarwar (12409171)** &nbsp;|&nbsp; **Chahak Singh (12502965)**  
 Department of Computer Science and Engineering  
 Lovely Professional University, Phagwara, Punjab, India  
-GitHub Repository: [github.com/Devanshu-Dhyanu/AgriGuard-Crop-Disease-Detection-and-Management](https://github.com/Devanshu-Dhyanu/AgriGuard-Crop-Disease-Detection-and-Management)
+GitHub Repository: [github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management](https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management)  
+Live Cloud Deployment: [https://agriguard-crop-disease-platform.onrender.com/](https://agriguard-crop-disease-platform.onrender.com/)
 
 ---
 
@@ -813,14 +813,10 @@ Ablation demonstrates that incorporating the **Botanical Architecture Verificati
 
 ## APPENDIX D: TEAM RESPONSIBILITIES AND PROJECT DELIVERABLES
 
-- **Devanshu Kumar (Lead Machine Learning & Computer Vision Engineer):**
-  - Dataset ingestion and automated conversion pipeline (`setup_real_kaggle_plantdoc.py`).
-  - YOLOv8 anchor-free model training, validation, and hyperparameter optimization (`train_eval.py`).
-  - Active contour Botanical Architecture Verification Engine (`yolo_detector.py`).
-  - Quantitative Severity Index (QSI) mathematical formulation and testing.
-  - Grad-CAM neural attention integration and visualization (`gradcam.py`).
-  - FastAPI application backend and REST service implementation (`main.py`).
-  - Comprehensive IEEE technical documentation and university capstone report.
+The capstone project was executed by a collaborative three-member engineering team with clear workstream ownership:
+- **Sahil Kumar (Reg. No. 1245740) — Computer Vision, Model Training & Edge Deployment:** Curated and converted the PlantDoc in-the-wild benchmark; trained and fine-tuned the anchor-free YOLOv8n object detection backbone on an NVIDIA RTX 4060 GPU; optimized anchor-free loss functions; benchmarked evaluation metrics (81.2% mAP@0.5); exported quantized ONNX models; and led cloud deployment on Render (`https://agriguard-crop-disease-platform.onrender.com/`).
+- **Amit Singh Sikarwar (Reg. No. 12409171) — Botanical Morphology & Explainable AI:** Engineered the active contour Botanical Architecture Verification Engine using HSV foliage segmentation and aspect-ratio analysis ($AR < 3.5$); formulated the spatial-spectral Quantitative Severity Index (QSI) algorithm with clinical 4-stage disease grading; and integrated MobileNetV3 convolutional gradients for explainable Grad-CAM neural attention heatmaps.
+- **Chahak Singh (Reg. No. 12502965) — Backend Microservices, PWA & Agrochemical Safety:** Architected the asynchronous FastAPI REST backend; designed the relational SQLite/PostgreSQL schema; built the multimodal conversational IPM reasoning engine with microclimate sensor integration; deployed the offline-first Progressive Web App (PWA); and authored technical documentation and university deliverables.
 
 ---
 

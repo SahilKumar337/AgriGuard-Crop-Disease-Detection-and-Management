@@ -8,10 +8,14 @@
 [![Edge](https://img.shields.io/badge/Edge%20Runtime-ONNX%20Mobile%20%7C%20FastAPI-blueviolet.svg)](https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **Author:** Devanshu Kumar  
-> **Roll No.:** 9 | **Registration No.:** 12404673  
+> **Authors:**  
+> - **Sahil Kumar** (Reg. No.: 1245740)  
+> - **Amit Singh Sikarwar** (Reg. No.: 12409171)  
+> - **Chahak Singh** (Reg. No.: 12502965)  
 > **Institution:** Department of Computer Science and Engineering, Lovely Professional University  
-> **Course:** CSE471 (Deep Learning for Computer Vision) | Capstone Project
+> **Course:** CSE471 (Deep Learning for Computer Vision) | Capstone Project  
+> **Live Web Platform:** [https://agriguard-crop-disease-platform.onrender.com/](https://agriguard-crop-disease-platform.onrender.com/)  
+> **GitHub Repository:** [https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management](https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management)
 
 ---
 

@@ -1,31 +1,32 @@
 ================================================================================
 AGRIGUARD: MULTIMODAL YOLO CROP DISEASE AI & INTEGRATED PEST MANAGEMENT
 Course: CSE471 | Artificial Intelligence & Machine Learning
-Author: Devanshu Kumar
+Authors:
+  1. Sahil Kumar (Reg. No.: 1245740)
+  2. Amit Singh Sikarwar (Reg. No.: 12409171)
+  3. Chahak Singh (Reg. No.: 12502965)
+Institution: Department of CSE, Lovely Professional University
 ================================================================================
 
-1. RENDER CLOUD DEPLOYMENT (Primary Production Service):
-   - Direct 1-Click Deploy Link:
-     https://render.com/deploy?repo=https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management
-   - Production Live URL:
+1. LIVE RENDER CLOUD DEPLOYMENT:
+   - Web Platform & Camera PWA:
      https://agriguard-crop-disease-platform.onrender.com/
    - Interactive Swagger API Documentation:
      https://agriguard-crop-disease-platform.onrender.com/docs
    - REST Diagnostic Endpoint:
      https://agriguard-crop-disease-platform.onrender.com/api/v1/diagnose
+   - Health Check Endpoint:
+     https://agriguard-crop-disease-platform.onrender.com/api/health
    - Android PWA Web Manifest:
      https://agriguard-crop-disease-platform.onrender.com/manifest.json
 
-2. SOURCE CODE & REPOSITORY:
+2. SOURCE CODE & GITHUB REPOSITORY:
    - GitHub Repository:
      https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management
+   - 1-Click Deploy to Render Link:
+     https://render.com/deploy?repo=https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management
 
-3. LOCAL RUNTIME & ANDROID PWA SERVICE:
-   - Local Web Server: http://localhost:8000
-   - Local Swagger Docs: http://localhost:8000/docs
-   - Desktop Streamlit Dashboard: http://localhost:8501
-
-4. CORE SYSTEM CAPABILITIES:
+3. CORE AIML CAPABILITIES:
    - Anchor-Free YOLOv8n Lesion Bounding-Box Localization (27 classes)
    - Botanical Leaf Morphology Verification Gate (AR < 3.5 dicots vs monocots)
    - Quantitative Severity Index (QSI) Staging (Stage 0 to Stage 3)
