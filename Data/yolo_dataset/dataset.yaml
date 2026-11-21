@@ -1,0 +1,25 @@
+# AgriGuard YOLO Crop Disease & Pest Infestation Dataset
+# Formatted per PlantDoc & Roboflow YOLO Annotation Standard
+# Course: CSE471 | Machine Learning & Computer Vision
+
+path: e:/CSE471/Data/yolo_dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 10
+
+# Class names corresponding to key field pathologies
+names:
+  0: Tomato_Early_Blight
+  1: Tomato_Late_Blight
+  2: Potato_Early_Blight
+  3: Potato_Late_Blight
+  4: Apple_Scab
+  5: Corn_Fall_Armyworm
+  6: Rice_Brown_Spot
+  7: Wheat_Leaf_Rust
+  8: Grape_Black_Rot
+  9: Healthy_Crop
+

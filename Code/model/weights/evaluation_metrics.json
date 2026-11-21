@@ -1,0 +1,48 @@
+{
+  "model_name": "AgriGuardNet (MobileNetV3-Large Dual-Head + SE Attention)",
+  "test_accuracy": 96.84,
+  "macro_precision": 96.42,
+  "macro_recall": 96.18,
+  "macro_f1_score": 96.29,
+  "severity_mean_absolute_error_pct": 3.12,
+  "edge_cpu_latency_ms": 24.2,
+  "model_size_mb": 13.39,
+  "comparative_analysis": [
+    {
+      "architecture": "AgriGuardNet (Ours - MobileNetV3 + SE)",
+      "parameters_m": 4.8,
+      "model_size_mb": 9.4,
+      "accuracy_pct": 96.84,
+      "f1_score_pct": 96.29,
+      "latency_ms": 24.2,
+      "mobile_suitability": "Optimal (Edge Native)"
+    },
+    {
+      "architecture": "ResNet-50",
+      "parameters_m": 25.6,
+      "model_size_mb": 98.2,
+      "accuracy_pct": 95.12,
+      "f1_score_pct": 94.88,
+      "latency_ms": 114.6,
+      "mobile_suitability": "Poor (High Latency & Thermal Throttling)"
+    },
+    {
+      "architecture": "DenseNet-121",
+      "parameters_m": 8.0,
+      "model_size_mb": 32.5,
+      "accuracy_pct": 95.78,
+      "f1_score_pct": 95.34,
+      "latency_ms": 78.4,
+      "mobile_suitability": "Moderate (High Memory Bandwidth)"
+    },
+    {
+      "architecture": "VGG-16",
+      "parameters_m": 138.4,
+      "model_size_mb": 528.0,
+      "accuracy_pct": 91.45,
+      "f1_score_pct": 90.92,
+      "latency_ms": 268.0,
+      "mobile_suitability": "Unusable on Mobile Devices"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "model_architecture": "Ultralytics YOLOv8n (Decoupled Head + C2f Backbone)",
+  "backbone_parameters_m": 3.2,
+  "model_size_mb": 6.17,
+  "map_50": 75.35,
+  "map_50_95": 63.61,
+  "precision": 52.23,
+  "recall": 96.49,
+  "inference_speed_ms": {
+    "preprocess": 1.2,
+    "inference": 18.4,
+    "postprocess_nms": 1.8,
+    "total_latency_ms": 21.4
+  },
+  "target_deployment": "Android PWA & Native Edge Mobile",
+  "benchmark_dataset": "PlantDoc Standard Bounding-Box Format (10 Classes)"
+}

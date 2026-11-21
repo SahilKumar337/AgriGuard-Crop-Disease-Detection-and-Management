@@ -1,0 +1,28 @@
+================================================================================
+AGRIGUARD: MULTIMODAL YOLO CROP DISEASE AI & CHATGPT-STYLE AGRONOMIST
+Course: CSE471 | Artificial Intelligence & Machine Learning
+================================================================================
+
+1. PRIMARY LIVE CLOUD DEPLOYMENT (Streamlit Community Cloud & Hugging Face Spaces):
+   Live URL: https://agriguard-crop-disease.streamlit.app/
+   Alternative HuggingFace Space: https://huggingface.co/spaces/cse471-eval/agriguard-edge
+
+2. LOCAL RUNTIME & ANDROID PWA SERVICE:
+   Local Server: http://localhost:8000
+   Interactive Swagger API Documentation: http://localhost:8000/docs
+   Android PWA Manifest: http://localhost:8000/manifest.json
+
+3. CORE AIML CAPABILITIES:
+   - YOLOv8n / YOLO11n Real-Time Lesion Bounding-Box Localization
+   - Surface Lesion Severity Quantification (% affected leaf blade)
+   - Multimodal ChatGPT-Style Conversational Interface (supports text + leaf photo queries)
+   - Actionable Integrated Pest Management (IPM): Bio-control, exact chemical dosages (g/L),
+     and Pre-Harvest Interval (PHI) safety countdowns.
+   - Microclimate Outbreak Risk Modeling (Temperature & Relative Humidity thresholds).
+
+4. ANDROID MOBILE COMPATIBILITY:
+   - 1-Tap PWA Installable directly via Google Chrome on Android ("Add to Home screen").
+   - Standalone full-screen execution with rear camera autofocus (`capture="environment"`).
+   - Offline caching supported via Service Worker (`sw.js`).
+   - Native Android Studio APK project included in `Code/android_app/`.
+================================================================================
