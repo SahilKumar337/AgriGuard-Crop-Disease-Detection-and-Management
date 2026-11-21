@@ -1,6 +1,6 @@
 """
 Build the exact 10-page, two-column IEEE formatted research paper for AgriGuard
-Author: Devanshu Kumar
+Author: Sahil Kumar, Amit Singh Sikarwar, and Chahak Singh
 Department of Computer Science and Engineering, Lovely Professional University
 """
 
@@ -41,7 +41,7 @@ def build_pdf():
     template = PageTemplate(id='two_columns', frames=[frame_left, frame_right], onPage=on_page)
     doc.addPageTemplates([template])
     
-    # Styles matching Devanshu's paper
+    # Styles matching IEEE standard's paper
     title_style = ParagraphStyle(
         'PaperTitle',
         fontName='Times-Bold',
@@ -147,7 +147,7 @@ def build_pdf():
     # PAGE 1 - COLUMN 1
     # -------------------------------------------------------------
     story.append(Paragraph("AgriGuard: An Edge-Optimized YOLO Object Detection and Multimodal Decision-Support Platform for In-Situ Crop Disease and Pest Management", title_style))
-    story.append(Paragraph("Devanshu Kumar<br/>Roll No.: 9 | Registration No.: 12404673<br/>Department of Computer Science and Engineering<br/>GitHub Repository:<br/>github.com/Devanshu-Dhyanu/AgriGuard-Crop-Disease-Detection-and-Management", author_style))
+    story.append(Paragraph("Sahil Kumar, Amit Singh Sikarwar, and Chahak Singh<br/>Roll No.: 9 | Registration No.: 12404673<br/>Department of Computer Science and Engineering<br/>GitHub Repository:<br/>github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management", author_style))
     
     story.append(Paragraph("<b>Abstract</b>—Agricultural crop diseases and pest infestations account for twenty to forty percent of annual global yield reductions, imposing an economic burden exceeding two hundred and twenty billion dollars according to the Food and Agriculture Organization (FAO). While deep convolutional networks achieve high classification accuracy on standardized, laboratory-controlled datasets such as PlantVillage, practical field deployment reveals catastrophic performance degradation—exceeding a thirty-one percent accuracy drop—due to cluttered agricultural backgrounds, non-uniform natural illumination, weed foliage, and sensor noise. Conventional classification architectures also treat disease diagnosis as a single-label image classification task, failing to identify co-occurring pathologies on a single leaf blade and offering zero quantitative assessment of disease severity. This paper presents AgriGuard, an edge-optimized agricultural computer vision and multimodal decision-support platform for in-situ crop disease detection, severity quantification, and integrated pest management (IPM). The platform couples an anchor-free YOLOv8 deep learning object detection backbone with an active-contour botanical architecture verification gate, a spatial-spectral Quantitative Severity Index (QSI) estimator, and explainable Grad-CAM neural attention heatmaps. By localizing discrete pathological lesions with individual bounding boxes, the system separates healthy photosynthetic leaf area from necrotic and chlorotic tissue, calculating objective clinical severity stages. To eliminate cross-phylogenetic false positives (such as misclassifying fungal pustules on broadleaf dicot foliage as cereal rust), an active contour morphology gate analyzes leaf blade aspect ratios. A multimodal conversational IPM reasoning engine translates diagnostic telemetry into actionable chemical, biological, and cultural agronomic interventions, complete with active ingredient knapsack dosages and Pre-Harvest Interval (PHI) safety countdowns. The platform is implemented across an asynchronous FastAPI microservice architecture, a lightweight Progressive Web Application (PWA) supporting offline smartphone camera capture, and an exportable ONNX edge runtime achieving an inference latency of 14.8 ms on an NVIDIA RTX 4060 GPU and 42.1 ms on mobile CPU runtimes. A reproducible evaluation framework, data model, API contract, and safety governance protocols are provided.", abstract_style))
     
@@ -530,7 +530,7 @@ End<br/>
     # PAGE 9 - COLUMN 1
     # -------------------------------------------------------------
     story.append(Paragraph("APPENDIX D. TEAM RESPONSIBILITIES AND PROJECT DELIVERABLES", h1_style))
-    story.append(Paragraph("The capstone project was executed by Devanshu Kumar, leading all system engineering workstreams:", body_style))
+    story.append(Paragraph("The capstone project was executed by Sahil Kumar, Amit Singh Sikarwar, and Chahak Singh, leading all system engineering workstreams:", body_style))
     story.append(Paragraph("1. Computer Vision & Deep Learning: Ingested and prepared the PlantDoc in-the-wild agricultural dataset; implemented automated CSV-to-YOLO conversion scripts; trained and fine-tuned the anchor-free YOLOv8n object detection backbone on an NVIDIA RTX 4060 GPU; tuned the Task-Aligned Assigner and anchor-free loss functions; generated evaluation curves (mAP, Precision-Recall, F1, confusion matrices); and exported the model to ONNX runtime format for mobile deployment.", body_style))
     story.append(Paragraph("2. Botanical Morphology & Explainable AI: Developed the active contour Botanical Architecture Verification Engine using HSV foliage segmentation and aspect-ratio bounding analysis ($AR < 3.5$ for broadleaf dicots vs $AR \\ge 4.5$ for monocot grasses); implemented the spatial-spectral Quantitative Severity Index (QSI) calculation engine; formulated the clinical 4-stage severity staging system; and coupled MobileNetV3 convolutional gradients to generate explainable Grad-CAM saliency heatmaps.", body_style))
     story.append(Paragraph("3. Backend, API & Frontend Deployment: Architected the asynchronous FastAPI microservice backend with REST endpoints (/diagnose, /gradcam, /telemetry); developed the SQLite/PostgreSQL relational data schema; built the multimodal conversational IPM agronomic advisory engine integrating microclimate sensor gating; implemented the desktop diagnostic dashboard in Streamlit; and deployed the offline-capable mobile Progressive Web Application (PWA).", body_style))

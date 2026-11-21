@@ -28,11 +28,11 @@ from reportlab.lib import colors
 # Full Text of the IEEE Documentation
 IEEE_MARKDOWN_CONTENT = """# AgriGuard: An Edge-Optimized YOLO Object Detection and Multimodal Decision-Support Platform for In-Situ Crop Disease and Pest Management
 
-**Devanshu Kumar**  
+**Sahil Kumar, Amit Singh Sikarwar, and Chahak Singh**  
 *Roll No.: 9 | Registration No.: 12404673*  
 Department of Computer Science and Engineering  
 Lovely Professional University, Phagwara, Punjab, India  
-GitHub Repository: [github.com/Devanshu-Dhyanu/AgriGuard-Crop-Disease-Detection-and-Management](https://github.com/Devanshu-Dhyanu/AgriGuard-Crop-Disease-Detection-and-Management)
+GitHub Repository: [github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management](https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management)
 
 ---
 
@@ -841,7 +841,7 @@ Ablation demonstrates that incorporating the **Botanical Architecture Verificati
 
 ## APPENDIX D: TEAM RESPONSIBILITIES AND PROJECT DELIVERABLES
 
-- **Devanshu Kumar (Lead Machine Learning & Computer Vision Engineer):**
+- **Sahil Kumar, Amit Singh Sikarwar, and Chahak Singh (Lead Machine Learning & Computer Vision Engineer):**
   - Dataset ingestion and automated conversion pipeline (`setup_real_kaggle_plantdoc.py`).
   - YOLOv8 anchor-free model training, validation, and hyperparameter optimization (`train_eval.py`).
   - Active contour Botanical Architecture Verification Engine (`yolo_detector.py`).
@@ -907,7 +907,7 @@ def generate_docx(output_path):
     
     auth_p = doc.add_paragraph()
     auth_p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    r_auth = auth_p.add_run("Devanshu Kumar\nRoll No.: 9 | Registration No.: 12404673\nDepartment of Computer Science and Engineering\nLovely Professional University, Phagwara, Punjab, India\nGitHub: github.com/Devanshu-Dhyanu/AgriGuard-Crop-Disease-Detection-and-Management\n")
+    r_auth = auth_p.add_run("Sahil Kumar, Amit Singh Sikarwar, and Chahak Singh\nRoll No.: 9 | Registration No.: 12404673\nDepartment of Computer Science and Engineering\nLovely Professional University, Phagwara, Punjab, India\nGitHub: github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management\n")
     r_auth.font.name = "Times New Roman"
     r_auth.font.size = Pt(10)
     
@@ -1093,7 +1093,7 @@ def generate_pdf(output_path):
     
     # Header
     story.append(Paragraph("AgriGuard: An Edge-Optimized YOLO Object Detection and Multimodal Decision-Support Platform for In-Situ Crop Disease and Pest Management", title_style))
-    story.append(Paragraph("<b>Devanshu Kumar</b><br/>Roll No.: 9 | Registration No.: 12404673<br/>Department of Computer Science and Engineering, Lovely Professional University, Phagwara, Punjab, India<br/>GitHub Repository: github.com/Devanshu-Dhyanu/AgriGuard-Crop-Disease-Detection-and-Management", author_style))
+    story.append(Paragraph("<b>Sahil Kumar, Amit Singh Sikarwar, and Chahak Singh</b><br/>Roll No.: 9 | Registration No.: 12404673<br/>Department of Computer Science and Engineering, Lovely Professional University, Phagwara, Punjab, India<br/>GitHub Repository: github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management", author_style))
     story.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor("#94a3b8"), spaceAfter=10))
     
     lines = IEEE_MARKDOWN_CONTENT.split("\n")

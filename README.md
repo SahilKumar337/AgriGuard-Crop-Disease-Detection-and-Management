@@ -15,7 +15,8 @@
 > **Institution:** Department of Computer Science and Engineering, Lovely Professional University  
 > **Course:** CSE471 (Deep Learning for Computer Vision) | Capstone Project  
 > **Live Web Platform:** [https://agriguard-crop-disease-platform.onrender.com/](https://agriguard-crop-disease-platform.onrender.com/)  
-> **GitHub Repository:** [https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management](https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management)
+> **GitHub Repository:** [https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management](https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management)  
+> **Google Drive Archive (ZIP):** [Project Submission ZIP](https://drive.google.com/file/d/1qt2_osKAq21TOwsiNuABr0xnvUKiwyXh/view?usp=sharing)
 
 ---
 
@@ -39,7 +40,7 @@ Agricultural crop diseases and pest infestations cause 20% to 40% of global yiel
 - **IEEE Paper (Microsoft Word):** [`IEEE_AgriGuard_Project_Documentation.docx`](IEEE_AgriGuard_Project_Documentation.docx)
 - **IEEE Paper (Markdown Source):** [`IEEE_AgriGuard_Project_Documentation.md`](IEEE_AgriGuard_Project_Documentation.md)
 - **University Capstone Report:** [`RollNo_CropDiseaseDetection_Report.pdf`](RollNo_CropDiseaseDetection_Report.pdf)
-- **Presentation Slides:** [`RollNo_CropDiseaseDetection_PPT.pptx`](RollNo_CropDiseaseDetection_PPT.pptx)
+- **Project Archive (Google Drive ZIP):** [Download Submission ZIP](https://drive.google.com/file/d/1qt2_osKAq21TOwsiNuABr0xnvUKiwyXh/view?usp=sharing)
 - **Deployment Manifest:** [`Deployment_Link.txt`](Deployment_Link.txt)
 
 ---
@@ -89,7 +90,7 @@ Agricultural crop diseases and pest infestations cause 20% to 40% of global yiel
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Devanshu-Dhyanu/AgriGuard-Crop-Disease-Detection-and-Management.git
+git clone https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management.git
 cd AgriGuard-Crop-Disease-Detection-and-Management
 ```
 

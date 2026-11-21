@@ -26,7 +26,11 @@ Institution: Department of CSE, Lovely Professional University
    - 1-Click Deploy to Render Link:
      https://render.com/deploy?repo=https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management
 
-3. CORE AIML CAPABILITIES:
+3. PROJECT ARCHIVE & SUBMISSION ZIP (GOOGLE DRIVE):
+   - Google Drive Submission Archive (Complete Project ZIP):
+     https://drive.google.com/file/d/1qt2_osKAq21TOwsiNuABr0xnvUKiwyXh/view?usp=sharing
+
+4. CORE AIML CAPABILITIES:
    - Anchor-Free YOLOv8n Lesion Bounding-Box Localization (27 classes)
    - Botanical Leaf Morphology Verification Gate (AR < 3.5 dicots vs monocots)
    - Quantitative Severity Index (QSI) Staging (Stage 0 to Stage 3)

@@ -4,7 +4,8 @@
 Department of Computer Science and Engineering  
 Lovely Professional University, Phagwara, Punjab, India  
 GitHub Repository: [github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management](https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management)  
-Live Cloud Deployment: [https://agriguard-crop-disease-platform.onrender.com/](https://agriguard-crop-disease-platform.onrender.com/)
+Live Cloud Deployment: [https://agriguard-crop-disease-platform.onrender.com/](https://agriguard-crop-disease-platform.onrender.com/)  
+Project Archive (Google Drive): [drive.google.com/file/d/1qt2_osKAq21TOwsiNuABr0xnvUKiwyXh](https://drive.google.com/file/d/1qt2_osKAq21TOwsiNuABr0xnvUKiwyXh/view?usp=sharing)
 
 ---
 
@@ -817,6 +818,7 @@ The capstone project was executed by a collaborative three-member engineering te
 - **Sahil Kumar (Reg. No. 1245740) — Computer Vision, Model Training & Edge Deployment:** Curated and converted the PlantDoc in-the-wild benchmark; trained and fine-tuned the anchor-free YOLOv8n object detection backbone on an NVIDIA RTX 4060 GPU; optimized anchor-free loss functions; benchmarked evaluation metrics (81.2% mAP@0.5); exported quantized ONNX models; and led cloud deployment on Render (`https://agriguard-crop-disease-platform.onrender.com/`).
 - **Amit Singh Sikarwar (Reg. No. 12409171) — Botanical Morphology & Explainable AI:** Engineered the active contour Botanical Architecture Verification Engine using HSV foliage segmentation and aspect-ratio analysis ($AR < 3.5$); formulated the spatial-spectral Quantitative Severity Index (QSI) algorithm with clinical 4-stage disease grading; and integrated MobileNetV3 convolutional gradients for explainable Grad-CAM neural attention heatmaps.
 - **Chahak Singh (Reg. No. 12502965) — Backend Microservices, PWA & Agrochemical Safety:** Architected the asynchronous FastAPI REST backend; designed the relational SQLite/PostgreSQL schema; built the multimodal conversational IPM reasoning engine with microclimate sensor integration; deployed the offline-first Progressive Web App (PWA); and authored technical documentation and university deliverables.
+- **Deliverables & Submission Archive:** The complete open-source codebase, trained YOLOv8 weights, benchmark datasets, and technical documentation are publicly hosted on GitHub ([github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management](https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management)), deployed live on Render ([agriguard-crop-disease-platform.onrender.com](https://agriguard-crop-disease-platform.onrender.com/)), and archived in the official university submission package on Google Drive: [drive.google.com/file/d/1qt2_osKAq21TOwsiNuABr0xnvUKiwyXh](https://drive.google.com/file/d/1qt2_osKAq21TOwsiNuABr0xnvUKiwyXh/view?usp=sharing).
 
 ---
 
