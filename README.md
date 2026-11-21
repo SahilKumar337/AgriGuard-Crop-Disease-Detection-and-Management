@@ -1,9 +1,11 @@
 # 🌿 AgriGuard: Edge-Optimized YOLO Crop Disease Detection & Multimodal IPM Platform
 
-[![Course](https://img.shields.io/badge/Course-CSE471%20Deep%20Learning%20for%20Computer%20Vision-blue.svg)](https://github.com/Devanshu-Dhyanu/AgriGuard-Crop-Disease-Detection-and-Management)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management)
+[![Live on Render](https://img.shields.io/badge/Render-Live%20Production-blue.svg)](https://agriguard-crop-disease-platform.onrender.com)
+[![Course](https://img.shields.io/badge/Course-CSE471%20Deep%20Learning%20for%20Computer%20Vision-blue.svg)](https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management)
 [![Model](https://img.shields.io/badge/YOLOv8n-Anchor--Free%20Detector-brightgreen.svg)](https://github.com/ultralytics/ultralytics)
-[![XAI](https://img.shields.io/badge/Explainable%20AI-Grad--CAM%20Heatmaps-orange.svg)](https://github.com/Devanshu-Dhyanu/AgriGuard-Crop-Disease-Detection-and-Management)
-[![Edge](https://img.shields.io/badge/Edge%20Runtime-ONNX%20Mobile%20%7C%20FastAPI-blueviolet.svg)](https://github.com/Devanshu-Dhyanu/AgriGuard-Crop-Disease-Detection-and-Management)
+[![XAI](https://img.shields.io/badge/Explainable%20AI-Grad--CAM%20Heatmaps-orange.svg)](https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management)
+[![Edge](https://img.shields.io/badge/Edge%20Runtime-ONNX%20Mobile%20%7C%20FastAPI-blueviolet.svg)](https://github.com/SahilKumar337/AgriGuard-Crop-Disease-Detection-and-Management)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > **Author:** Devanshu Kumar  
